@@ -1,0 +1,82 @@
+p {
+  font-family: Lato;
+}
+
+.profile-cell-value {
+  padding: 2px;
+  margin: 6px;
+}
+
+.profile-cell-value input[type="text"],
+.profile-cell-value input[type="tel"],
+.profile-cell-value input[type="date"] {
+  width: 100%;
+  padding: 7px 10px;
+}
+
+.profile-cell-value select {
+  width: 100%;
+  padding: 7px 0 7px 10px;
+}
+.profile-cell-value datepicker {
+  width: 100%;
+  padding: 7px 0 7px 3px;
+}
+.profile-cell-value undecided {
+  width: 100%;
+  padding: 5px 0 7px 3px;
+}
+
+.profile-checkbox-label {
+  font-weight: normal;
+  margin: 5px;
+}
+
+.profile-checkbox {
+  float: right;
+}
+
+.profile-edit-checkbox {
+  float: left;
+  margin-top: 8px !important;
+}
+
+.profile-optin-checkbox {
+  float: left;
+  margin-left: 20px !important;
+}
+
+.profile-error {
+  color: #a94442;
+}
+.profile-view-container {
+  margin-top: 10px;
+}
+
+.profile-view-section {
+  /*border: solid 1px gray;*/
+  margin-bottom: 10px;
+  padding: 5px 5px 10px 5px;
+  /* background-color: rgb(214, 214, 214);*/
+}
+
+.profile-view-section-btn {
+  float: right;
+  font-size: 18pt;
+  font-weight: bold;
+  padding: 5px 30px;
+  /*background-color: rgb(254, 243, 137);*/
+}
+
+.profile-edit-section-btn {
+  float: right;
+  margin: 10px !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  padding: 5px 10px;
+  background-color: #62a52d !important;
+  border-radius: 3em !important;
+  color: #fff !important;
+  min-width: 120px;
+  /*background-color: rgb(254, 243, 137);*/
+}
